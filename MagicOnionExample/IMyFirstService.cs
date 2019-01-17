@@ -5,10 +5,10 @@ using MagicOnion;
 
 namespace MagicOnionExample
 {
-	public interface IMyFirstService : IService<IMyFirstService>
+	public abstract class MyFirstServiceBase
 	{
-		// Return type must be `UnaryResult<T>` or `Task<UnaryResult<T>>`.
-		// If you can use C# 7.0 or newer, recommend to use `UnaryResult<T>`.
-		UnaryResult<Class1> Get(string name);
+		public abstract Class1 Get(string name, string[] strings, DateTime dt);
+
+		public abstract void Set(string msg);
 	}
 }

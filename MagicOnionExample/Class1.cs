@@ -12,5 +12,7 @@ namespace MagicOnionExample
 		public HashSet<int> Ints { get; set; }
 
 		public Dictionary<int, string[]> Dict { get; set; }
+
+		public DateTime[] Dates { get; set; }
 	}
 }

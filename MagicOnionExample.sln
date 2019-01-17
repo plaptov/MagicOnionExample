@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicOnionExample", "MagicOnionExample\MagicOnionExample.csproj", "{A970676C-8364-42E5-8B97-42417C6FAA38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{D02A4230-DD7A-4DE0-A3DF-F224F35544B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{D02A4230-DD7A-4DE0-A3DF-F224F35544B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{4FF6A94C-0493-4B32-BACB-D21ECE4C3997}"
 EndProject
